@@ -5,7 +5,6 @@ PID control system for PYTHON
 this was the EXE I left, this link>https://drive.google.com/file/d/14ss6niEMOBahxKG7pD3g7_qy0O1qeM9T/view?usp=sharing
 
 
-# PIDController - README
 
 ## Descrição
 O `PIDController` é uma implementação de um controlador PID (Proporcional, Integral, Derivativo) para sistemas de controle automatizado. Ele permite ajustar automaticamente ou manualmente os parâmetros do PID, visando melhorar a precisão e estabilidade do sistema.
@@ -123,5 +122,3 @@ Retorna os parâmetros atuais e o estado interno do controlador.
 - **Ki (Integral):** Aumentar `Ki` ajuda a eliminar o erro persistente, mas muito alto pode causar overshoot.
 - **Kd (Derivativo):** Aumentar `Kd` ajuda a reduzir oscilações e melhora a resposta dinâmica.
 
-## Conclusão
-Este controlador PID é altamente configurável e ideal para sistemas que necessitam de um controle preciso e adaptável. O modo automático de ajuste de parâmetros torna-o útil em ambientes dinâmicos, enquanto o modo manual oferece flexibilidade para ajustes finos.
